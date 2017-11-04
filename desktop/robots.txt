@@ -1,0 +1,8 @@
+﻿#Hospedagem de Sites e Serviços de Internet 
+
+User-Agent: *
+Allow: /
+
+Disallow: /css
+Disallow: /js
+Disallow: /php

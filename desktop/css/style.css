@@ -1,0 +1,498 @@
+body{
+
+	font-family: arial;
+	font-size: 14px;
+	color: #3a5c8b;
+	overflow-x:hidden;
+}
+/*CSS TOPO e MENU*/
+header{
+
+	width: 100%;
+	height: 350px;
+	top: 0;
+}
+nav{
+
+	width: 868px;
+	position: relative;
+	top: 0;
+	z-index: 5;
+	margin: 0 auto;
+	left: 50%;
+	margin-left: -428px;
+}
+footer{
+
+	width: 100%;
+	height: 160px;
+}
+
+#Cards{
+
+	display: table;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#Page_Contacts strong{
+    color: #ff0000;
+    display: table;
+    margin-left: 148px;
+    margin-top: 26px;
+}
+
+#Page_Budget strong {
+    color: #ff0000;
+    display: table;
+    margin-left: 148px;
+    margin-top: 26px;
+}
+#Div_Location{
+
+	width: 980px;
+	margin: 0 auto;
+}
+#Div_End{
+	display: table;
+	margin-top: 20px;
+
+}
+#Div_End b{
+
+	display: table;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#Page_Location h1 {
+    display: table;
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#Div_Locat {
+    display: table;
+    background: #24844e;
+    width: 100%;
+    height: 50px;
+}
+#Div_Back{
+
+	width: 980px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+#Div_TSP{
+
+    display: table;
+    background: #00481f;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+}
+#DivImg {
+    margin: 0 auto;
+    padding-bottom: 19px;
+    padding-top: 21px;
+    text-align: center;
+    width: 980px;
+}
+#Div_Back b{
+
+	display: table;
+	text-align: center;
+	width: 900px;
+	padding-bottom: 30px;
+	font-size: 16px;
+	margin: 0 auto;
+}
+#Div_Back span{
+
+	display: table;
+	text-align: center;
+	width: 900px;
+	margin: 0 auto;
+}
+#BackMenu {
+    width: 100%;
+    height: 112px;
+    background: #faede7;
+    position: relative;
+    z-index: 4;
+    opacity: 0.91;
+    margin-top: 29px;
+}
+#Logotipo {
+    display: table;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+#Banners{
+
+	display: inline;
+}
+
+#Sidebar{
+
+	width: 100%;
+	min-height: 550px;
+	margin: 0 auto;
+}
+/*PAGINA HOME*/
+#Page_Home{
+
+	margin: 407px auto 0;
+}
+#Page_Budget .imgBanner {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}
+#Page_Budget ul {display: table; margin: 0 auto; margin-top: 29px;}
+#Page_Budget ul li{font-weight: bold; display: table;  margin-bottom: 15px;}
+#Page_Budget ul li img{float: left;  margin-right: 5px;}
+#Page_Budget ul li span{float: left;     margin-top: 3px;}
+#Text_Welcome{
+
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+}
+#Text_Welcome b{
+
+	font-weight: bold;
+}
+#Social_Networks{
+
+	display: table;
+	margin-top: 30px;
+	margin-left: -1px;
+}
+#Social_Networks #Whatsapp{
+
+	display: table;
+}
+#Social_Networks #Whatsapp #Text_Zap {
+
+    color: #1b7c45;
+    float: left;
+    font-size: 29px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+#Social_Networks #FaceBook #Text_Face a{
+
+    color: #1b7c45;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-decoration: none;
+}
+#Social_Networks #Whatsapp #IconZap{
+
+	background: url(../images/redes.png) no-repeat top center;
+	width: 50px;
+	height: 44px;
+	float: left;
+}
+#Social_Networks #FaceBook #IconFace{
+
+	background: url(../images/redes.png) no-repeat bottom center;
+	width: 50px;
+	height: 44px;
+	float: left;
+}
+#Services{
+
+	display: table;
+	margin: 0 auto;
+}
+#Services ul li {
+    float: left;
+    width: 272px;
+    margin-left: 26px;
+    margin-right: 15px;
+    line-height: 23px;
+}
+#Services ul{display: table;  margin: 0 auto; width: 955px; margin-top: 54px;}
+#Services ul li img{display: table; margin: 0 auto; margin-bottom: 10px;}
+
+
+/*ORCAMENTO*/
+
+#Form_Budget {
+    display: table;
+    margin-bottom: 37px;
+    margin-left: 131px;
+    margin-top: 29px;
+}
+
+#Form_Contats {
+    display: table;
+    margin-bottom: 37px;
+    margin: 0 auto;
+    margin-top: 29px;
+}
+
+#Page_Budget{
+
+	width: 100%;
+	min-height: 450px;
+	margin-top: 50px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	padding: 5px;
+}
+
+#Page_trial h1{display: table; margin: 0 auto; font-size: 45px; letter-spacing:-3px;}
+#Page_trial p{ text-align: left; display: table;  margin: 0 auto; margin-top: 20px;  line-height: 29px;     width: 900px;}
+#Page_trial span{ text-align: left; display: table;  margin: 0 auto; margin-top: 20px;  line-height: 19px; color: #671d00}
+#Page_trial #formTrial .contTrial  input[type="text"]{background: #f7bda7; border: none;  padding: 10px;  border-radius: 5px;  color: #b17662;  font-family: 'Arial Black'; font-weight: bold; font-size: 20px; float: left; margin-top: 8px;}
+#Page_trial #formTrial .contTrial  input[type="button"]{background: #eb571e; border: none;  padding: 10px;  border-radius: 5px;  color: #fff;  font-family: 'Arial Black'; font-weight: bold; font-size: 20px;  margin-top: 30px; cursor: pointer;}
+#Page_trial{
+
+	width: 100%;
+	min-height: 450px;
+	margin-top: 50px;
+	padding: 5px;
+	
+}
+#Page_trial #formTrial .contTrial{ display: table;  margin: 0 auto;}
+#Page_trial #formTrial{display: table; margin-top: 73px; background: #fbdace;  width: 100%; padding-top: 30px; padding-bottom: 30px;}
+#Page_trial #formTrial .coluns1{float: left; width: 300px;}
+#Page_trial #formTrial .coluns2{float: left; width: 419px;}
+#Page_trial #formTrial .coluns2 form .camps{display: table; margin-top: 19px;}
+#Page_trial #formTrial .coluns2 form{
+	display: table;
+    margin: 0 auto;
+        margin-left: 51px;
+}
+#Page_Contacts #Form_Contats .Camps_Form  input[type="text"]{background: #d4dbe6; border: none;  padding: 10px;  border-radius: 5px;  color: #8d9db7;  font-family: 'Arial Black'; font-weight: bold; font-size: 20px; float: left; margin-top: 8px;}
+#Page_Contacts #Form_Contats .Camps_Form  textarea{background: #d4dbe6; border: none;  padding: 10px;  border-radius: 5px;  color: #8d9db7;  font-family: 'Arial Black'; font-weight: bold; font-size: 20px; float: left; margin-top: 8px;}
+#Page_Contacts #Form_Contats .Camps_Form  input[type="button"]{background: #3a5c8b url(images/icobutton.png)  no-repeat center center; border: none;  padding: 10px;  border-radius: 5px;  color: #fff;  font-family: 'Arial Black'; font-weight: bold; font-size: 20px;  margin-top: 30px; cursor: pointer;}
+#Page_trial #formTrial .buttonSolcitar{display: table;}
+#Page_Contacts{
+
+	width: 100%;
+	min-height: 450px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	padding: 5px;
+}
+
+#Loading{
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 10000;
+	display: none;
+}
+
+#Loading #img{
+
+	padding: 30px;
+	border-radius: 10px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    margin-left: -24px;
+    margin-top: 230px;
+	z-index: 10002;
+
+}
+
+#Shadow{
+
+	width: 100%;
+	height: 100%;
+	background: #000;
+	position: fixed;
+	top: 0;
+	opacity: 0.5;
+	z-index: 10001;
+}
+
+#Page_Location{
+
+	width: 100%;
+	min-height: 450px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	padding: 5px;
+}
+
+.Camps_Form {
+    display: table;
+    margin-top: 48px;
+    margin: 0 auto;
+}
+
+.Text_Title_Form {
+    height: 50px;
+    margin-left: 12px;
+    margin-top: 43px;
+    width: 741px;
+    margin-bottom: 115px;
+}
+
+.Text_Title_Form h1 {
+    font-size: 75px;
+    color: #3a5c8b;
+    font-family: 'Arial Black';
+    font-weight: bold;
+    letter-spacing: -7px;
+    text-align: center;
+}
+
+.Camps_Form .Line{
+
+	margin-bottom: 10px;
+}
+
+.Camps_Form .Line span {
+    float: left;
+    margin-right: 12px;
+    padding-top: 8px;
+    text-align: right;
+    width: 137px;
+}
+
+.Text_Title_Form span{
+
+	font-size: 14px;
+	color: #3a5c8b;
+	display: table;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.Camps_Form input[type="text"]{
+
+	background: #c7c7c7;
+	border: 2px solid #bfbfbf;
+	padding: 5px;
+	width: 450px;
+}
+
+.Line spam{
+
+	color: #FF0000;
+	font-size: 22px;
+}
+
+.Camps_Form select{
+
+	background: #c7c7c7;
+	border: none;
+	padding: 5px;
+	width: 460px;
+}
+
+.Camps_Form textarea{
+
+	background: #c7c7c7;
+	border: 2px solid #bfbfbf;
+	padding: 5px;
+	width: 450px;
+	font-family: arial;
+}
+
+.Icon_Form{
+
+	width: 118px;
+	height: 98px;
+	float: left;
+}
+
+.ico1{
+
+	background: url(../images/Formularios.png) no-repeat top center;
+}
+
+.ico2{
+
+	background: url(../images/Formularios.png) no-repeat -1px -103px;
+}
+
+footer{
+
+	background: #3a5c8b;
+	width: 100%;
+	height: 244px;
+	padding-top: 20px;
+}
+footer p {
+    display: table;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+    width: 821px;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 42px;
+}
+.icoTsp{display: table;  margin: 0 auto;}
+.fundMenuFooter{
+
+    background: #4b6a95;
+    width: 100%;
+	display: table;
+}
+#menuFooter {
+    margin: 0 0 38px 44px;
+    position: relative;
+    z-index: 6;
+    left: 50%;
+    margin-left: -184px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#menuFooter, #menuFooter ul {
+    padding: 0;
+    list-style: none;
+}
+#menuFooter li {
+    float: left;
+    position: relative;
+}
+#menuFooter a {
+    float: left;
+    padding: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font: bold 15px Arial, Helvetica;
+    text-decoration: none;
+}
+#menuFooter ul {
+    margin: 20px 0 0 0;
+    _margin: 0; /*IE6 only*/
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    z-index: 1;    
+    background: #444;   
+    background: linear-gradient(#015124, #007410);
+    box-shadow: 0 -1px 0 rgba(255,255,255,.3);  
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+}
